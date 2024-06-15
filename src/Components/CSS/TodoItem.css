@@ -7,6 +7,7 @@
 
 .todoitems__container{
     display: flex;
+    align-items: center;
 }
 
 .todoitem__text{
@@ -18,4 +19,8 @@
 .todoitems__cross__icon{
     cursor: pointer;
     padding-right: 25px;
+}
+
+.line-through{
+    text-decoration: line-through solid #adadad 3px;
 }
